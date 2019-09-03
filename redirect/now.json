@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "alias": ["www.madebyakriti.com"],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "status": 301,
+        "headers": { "Location": "https://madebyakriti.com/$1" }
+      }
+    ]
+  }
+  
