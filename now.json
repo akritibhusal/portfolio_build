@@ -1,3 +1,8 @@
 {
-    "routes": [{ "src": "/portfolio", "dest": "/portfolio.pdf" }]
+    "routes": [{ "src": "/portfolio", "dest": "/portfolio.pdf" }],
+    "static": {
+        "rewrites": [
+            { "source": "**", "destination": "/index.html" }
+        ]
+    }
 }
