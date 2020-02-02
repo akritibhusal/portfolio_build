@@ -2,6 +2,9 @@
     "routes": [{ "src": "/portfolio", "dest": "/portfolio.pdf" },
         { "src": "/about", "dest": "/index.html" },
         { "src": "/works", "dest": "/index.html" },
-        { "src": "/blog", "dest": "/index.html" }
+        { "src": "/blog", "dest": "/index.html" },
+        { "src": "/resources/neptoons", "dest": "/index.html" },
+        { "src": "/posts/create-something-everyday", "dest": "/index.html" },
+        { "src": "/thankyou", "dest": "/index.html" }
     ]
 }
